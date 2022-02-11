@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Libre+Baskerville:wght@700&family=Poppins:wght@500;700&family=Rubik&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    width: 100vw;
+    position: relative;
+    font-family: 'Libre Baskerville', serif;
+}
+ .conntainer{
+    width: 90%;
+    margin:0 auto; 
+ }
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+.logo{
+    width:169.56px ;
+    height:48px ;
+    background-image: url("../assets/shared/logo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slidShow p{
+    font-size: 12px;
+    color: #7D7D7D;
+    letter-spacing: 2.57px;
+    text-transform: uppercase;
+    transition: all 0.6s ease-in-out;
+    
+}
+.slidShow:hover p{
+    cursor: pointer;
+    color: #000;
+    transition: all 0.6s ease-in-out;
+}
+hr{
+    border: none;
+    outline: none;
+    height: 1px;
+    background: #E5E5E5;
+    margin: 40px 0;
+}
+.collectionGallery{
+    display: grid; 
+    grid-gap: 10px;
+     grid-template-columns: auto auto auto auto;
+    /* grid-template-rows: 300px; */
+    /* grid-template-rows:auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto  ; */
+}
+.gallry{
+   
+    width: 310px;
+    min-height: min-content;
+    transition: opacity 0.6s ease-in-out;
+    margin: 0 auto;
+    
+
+}
+.gallry:hover{
+    opacity:70%;
+    transition: opacity 0.6s ease-in-out;
+}
+.caption{
+   margin-top:-100px;
+   margin-left: 30px;
+   width:246px;
+   line-height: 29.76px;
+   cursor:pointer;
+}
+ .caption1{
+    font-size: 24px;
+    color: #fff;
+}
+.caption2{
+    font-size: 13px;
+    color: #fff;
+    opacity: 75.28%;
+}
+.gallry img{
+ width:100%;
+}
+.item1{
+   grid-template-rows: 1/2;
+}
+.item2{
+  height:400px;
+} 
+  .item3{
+  height: 285px;
+}  
+.item4{
+   height: 250px;
+} 
+.item5{
+    height: 340px;
+}
+.item6{
+    height:280px;
+}
+.item7{
+    height: 500px;
+}
+.item8{
+    height: 250px;
+}
+.item9{
+    height: 420px;
+}
+.item10{
+    height: 260px;
+}
+.item11{
+    height: 525px;
+}
+.item12{
+    height: 430px;
+}
+.item13{
+    height: 260px;
+}
+.item14{
+    height: 330px;
+}
+.item15{
+    height: 340px;
+} 
+/* component */
+.main{
+    display: flex;
+    width: 100%;
+    align-items:flex-start;
+    justify-content: space-between;
+} 
+
+.imagePhoto{
+    position: relative;
+}
+  .sectionPhoto  .photo{
+    width:475px;
+    height: 560px;
+}  
+.sectionPhoto  .photo img{
+    width: 100%;
+    height: 100%;
+}
+ .yearContainer{
+    width: 481px;
+    height: 150px;
+} 
+ .year{
+    font-size: 200px;
+    color: #F3F3F3;
+} 
+
+
+.description{
+    width: 350px;
+    height: 450px;
+     font-size: 14px;
+    color:#7D7D7D;
+    line-height: 28px;
+    padding-left:10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column; 
+    
+    
+ }
+ .title{
+    width:350px;
+    height: 302px;
+    position: absolute;
+    background: #fff;  
+    top:0;
+    left:400px;
+    padding-left:20px;
+}   
+ .title h1{
+    font-size: 56px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 24px;
+} 
+ .title small{
+    font-size: 15px;
+    color: #7D7D7D;
+} 
+.source{
+    font-size: 9px;
+    color: #7D7D7D;
+    display: block;
+    width: 108px;
+    text-transform: uppercase;
+    letter-spacing: 1.93px;
+    text-decoration: underline;
+    transition: color 0.6s ease-in-out;
+} 
+.source:hover{
+    color:#000;
+    cursor: pointer;
+    transition: color 0.6s ease-in-out;
+} 
+  .viewImag{
+    width: 152px;
+    height: 40px;
+    background-color: #000;
+    opacity: 75.46%;
+    color:#fff;
+   display: flex;
+   justify-content:space-around; 
+   align-items: center;
+   text-transform: uppercase;
+   font-size: 10px;
+   font-weight: bold;
+   letter-spacing: 2.14px; 
+    position: relative; 
+    bottom:56px;
+    left:16px; 
+    transition: all 0.6s ease-in-out; 
+ 
+}  
+ .viewImag:hover{
+    cursor: pointer;
+    background-color: #979797;
+    transition: all 0.6s ease-in-out;
+}
+.viewImag::before{
+    content: "";
+    display: block;
+    width:14px;
+    height:14px;
+     background-image: url("../assets/shared/icon-view-image.svg");
+    background-size:contain; 
+
+ }
+.artist{
+    width: 128px;
+    height: 128px;
+    position: absolute;
+    left: 507px;
+    bottom: -40px;
+} 
+.artist img{
+    width: 100%;
+}
+
+ .border{
+    height: 1px;
+    background-color: #E5E5E5;
+} 
+.progresbar{
+    display: block;
+    height: 1px;
+    width:12px;
+    background-color: #979797;
+}
+ footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 96px;
+    padding: 40px;
+} 
+ .arrowIcon{
+    width: 90.69px;
+    height:24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+} 
+ .arrowIcon a{
+    display: block;
+    width: 25.17px;
+    height: 24px;
+    background-size: contain;
+   background-repeat: no-repeat;
+}  
+ .next{
+background-image: url("../assets/shared/icon-next-button.svg");
+transition: all 0.6s ease-in-out;
+} 
+.next:hover{
+    cursor: pointer;
+    background-image: url("../assets/shared/Group\ 5.png");
+    transition: all 0.6s ease-in-out;
+    } 
+
+.prev{
+    background-image: url("../assets/shared/icon-back-button.svg");
+    transition: all 0.6s ease-in-out;
+} 
+.prev:hover{
+    cursor: pointer;
+    background-image: url("../assets/shared/Group\ 6\ Copy.png");
+    transition: all 0.6s ease-in-out;
+} 
+ .titleFooter h1{
+    font-size: 18px;
+    font-weight: bold;
+} 
+.titleFooter small{
+    font-size: 13px; 
+    
+} 
+/* Modal */
+.bgblack{
+    position: absolute;
+    width: 100vw;
+    min-height:100%;
+    background: #000;
+    opacity: 0.85;
+    z-index: 1;
+    display: none;
+}
+.modalImage img{    
+    width: 100%;
+    height:100%;
+}
+
+
+.modalContainer{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;  
+    height: 770px;
+    width: max-content;
+    display: none;
+}
+.closeModal{
+    font-size: 14px;
+    margin-bottom: 41px;
+    color: #fff;
+    text-align: right;
+    transition: opacity 0.6s ease-in-out;
+
+}
+.closeModal:hover{
+    cursor: pointer;
+    opacity: 25%;
+    transition: opacity 0.6s ease-in-out;
+}
+
+/* tablet */
+
+@media (min-width:820px) and (max-width:1200px) {
+    
+body{
+    width: 100vw;
+}
+    .conntainer{
+        width: 768px;
+    }
+
+    .logo{
+        width: 113.04px;
+        height: 32px;
+    }
+    .collectionGallery{
+        grid-template-columns: auto auto;
+    }
+    .main{
+        flex-direction: column;   
+    }
+    .artist{
+        top: 301px;
+    }
+    .descriptionContainer{
+        margin-top: 70px;
+    }
+    .description{
+        width: 572px;
+        height: 299px;
+        padding-left:50px;
+}
+.modalContainer{
+    width:90%;
+}
+
+}
+/* mobile */
+@media (min-width:375px) and (max-width:819px) {
+    body{
+        width: 100vw;
+    }
+    .conntainer{
+        width:375px;
+     
+    }
+    .collectionGallery{
+        grid-template-columns: auto ;
+    }
+   
+    .logo{
+        width: 113.04px;
+        height: 32px;
+    }
+    .slidShow p{
+        font-size: 9px;
+    }
+    .main{
+        margin: 0 auto;
+        width: 90%;
+        flex-direction: column;  
+    }
+     
+    .title{
+        width: 280px;
+        height: 133px;
+        top: 202px;
+        left: 0;
+    }
+     .title h1{
+        font-size: 24px;
+    }
+    .sectionPhoto  .photo{
+        width:327px;
+        height: 280px;
+     
+    }
+
+    .viewImag{
+        top:-273px;
+    }
+    .descriptionContainer{
+        width:100%;
+        margin-top:70px;
+      
+    }
+    .description{
+        width: 100%;
+    }
+    .year{
+        font-size: 100px;
+        margin-left:80px;
+        
+    }
+  
+    .artist{
+        width:64px;
+        height:64px;
+        top: 333px;
+        left: 0;
+
+    }
+    .titleFooter h1{
+        font-size: 14px;
+
+    }
+    .titleFooter small{
+        font-size:10px; 
+        
+    }
+    .arrowIcon{
+        width:56.8px;
+        height:16px;
+    }
+    .arrowIcon a{
+        width: 16.78px;
+    }
+    .modalContainer{
+        width:90%;
+    }
+}
