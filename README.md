@@ -10,7 +10,7 @@
 ![](./preview.jpg)
 
 ### Links
-- Live Site URL: [Add live site URL here]( https://mona-front.github.io/GalleriaSlideshow/)
+- Live Site URL: [Add live site URL here](  https://mona-front.github.io/Gallery/)
 
 ## My process
 
